@@ -34,16 +34,6 @@ BUNDLE_SUPPORT = {
         "setuptools": "setuptools-59.6.0-py3-none-any.whl",
         "wheel": "wheel-0.37.1-py2.py3-none-any.whl",
     },
-    "3.5": {
-        "pip": "pip-20.3.4-py2.py3-none-any.whl",
-        "setuptools": "setuptools-50.3.2-py3-none-any.whl",
-        "wheel": "wheel-0.37.1-py2.py3-none-any.whl",
-    },
-    "2.7": {
-        "pip": "pip-20.3.4-py2.py3-none-any.whl",
-        "setuptools": "setuptools-44.1.1-py2.py3-none-any.whl",
-        "wheel": "wheel-0.37.1-py2.py3-none-any.whl",
-    },
 }
 MAX = "3.11"
 

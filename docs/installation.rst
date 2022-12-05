@@ -88,8 +88,8 @@ Python and OS Compatibility
 
 virtualenv works with the following Python interpreter implementations:
 
-- `CPython <https://www.python.org/>`_ versions 2.7, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
-- `PyPy <https://pypy.org/>`_ 2.7, 3.6, 3.7, 3.8, 3.9
+- `CPython <https://www.python.org/>`_ versions 3.5, 3.6, 3.7, 3.8, 3.9, 3.10
+- `PyPy <https://pypy.org/>`_ 3.6, 3.7, 3.8, 3.9
 
 This means virtualenv works on the latest patch version of each of these minor versions. Previous patch versions are
 supported on a best effort approach.
@@ -98,7 +98,7 @@ CPython is shipped in multiple forms, and each OS repackages it, often applying 
 Therefore we cannot say universally that we support all platforms, but rather specify some we test against. In case
 of ones not specified here the support is unknown, though likely will work. If you find some cases please open a feature
 request on our issue tracker. Note, as of ``20.16.0`` we no longer support running under Python less than 3.6, however
-we still support creating environments for 2.7 and 3.5.
+we still support creating environments for 3.5.
 
 Linux
 ~~~~~
@@ -114,9 +114,8 @@ macOS
 In case of macOS we support:
 
 - installations from `python.org <https://www.python.org/downloads/>`_
-- python versions installed via `brew <https://docs.brew.sh/Homebrew-and-Python>`_ (both older python2.7 and python3)
+- python versions installed via `brew <https://docs.brew.sh/Homebrew-and-Python>`_ (python3)
 - Python 3 part of XCode (Python framework - ``/Library/Frameworks/Python3.framework/``)
-- Python 2 part of the OS (``/System/Library/Frameworks/Python.framework/Versions/``)
 
 Windows
 ~~~~~~~
